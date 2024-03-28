@@ -12,24 +12,7 @@ import Footer from "./components//Footer";
 import Contact from "./components//Contact";
 
 export default function Home() {
-  const [theme, setTheme] = useState(() => {
-    const preferredTheme = window.matchMedia("(prefers-color-scheme: dark)")
-      .matches
-      ? "dark"
-      : "light";
-
-    localStorage.setItem("theme", preferredTheme);
-    return preferredTheme;
-  });
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-    const handleMediaChange = () =>
-      setTheme(mediaQuery.matches ? "dark" : "light");
-    mediaQuery.addEventListener("change", handleMediaChange);
-
-    return () => mediaQuery.removeEventListener("change", handleMediaChange);
-  }, []);
+  const [theme, setTheme] = useState("dark");
 
   return (
     <div className={theme}>
