@@ -27,7 +27,7 @@ export default function Hero() {
           <img src={mcr.src} alt="Photo de Maxime Raylet" width={400} />
           <div className="hero-right-btn">
             <button>
-              <a href="#" target="_blank">
+              <a href="/cv.pdf" download>
                 <p>CV</p>
               </a>
             </button>
