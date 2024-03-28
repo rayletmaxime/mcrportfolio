@@ -291,7 +291,15 @@ textarea {
   }
 }
 
-.colorcontact {
+.dark form {
+  color: #23272f;
+}
+
+.dark form label {
+  color: #f6f7f9;
+}
+
+.light .colorcontact {
   background-color: #eff0f3;
   color: #23272f;
   transition: color 500ms;
@@ -381,8 +389,15 @@ textarea {
   transition: scale 500ms;
 }
 
-.text-box:hover {
+.light .text-box:hover {
   background-color: #d5d5d3;
+  scale: 1.03;
+  transition: background-color 500ms;
+  transition: scale 500ms;
+  cursor: pointer;
+}
+
+.dark .text-box:hover {
   scale: 1.03;
   transition: background-color 500ms;
   transition: scale 500ms;

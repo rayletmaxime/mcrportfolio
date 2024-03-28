@@ -18,7 +18,7 @@ export default function Hero() {
             <a href="https://www.linkedin.com/in/mcraylet/" target="_blank">
               <img src={linkedin.src} alt="Logo LinkedIn" />
             </a>
-            <a href="https://github.com/gitmcr" target="_blank">
+            <a href="https://github.com/rayletmaxime" target="_blank">
               <img src={github.src} alt="Logo GitHub" />
             </a>
           </div>

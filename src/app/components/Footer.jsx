@@ -31,7 +31,7 @@ export default function Footer() {
       <div className="footer" id="footer">
         <div className="footer-left">
           <a href="">
-            <h1>mcr</h1>
+            <img src="../favicon.ico" alt="Logo mcr" height={45} width={45} />
           </a>
         </div>
         <div className="footer-middle">

@@ -32,7 +32,7 @@ export const projects = [
       "Conceptualisé et réalisé en deux semaines en partant avec aucune connaissance des CMS avec un apprentissage en ligne en autodidacte.",
     languages: [figma, ps, cms, seo],
     image: [imgproject1],
-    linkgit: "https://github.com/gitmcr",
+    linkgit: "https://github.com/rayletmaxime",
     linklive: "https://www.mcraylet.com/",
   },
   {
@@ -44,7 +44,7 @@ export const projects = [
       'Portfolio d\'une musicienne démontrant ses actualités, sa musique et ses propres compositions construit avec React et Tailwind CSS hébergé pour le moment sur Netlify en "manual deploy".',
     languages: [react, tailwind, js, mui],
     image: [imgproject2],
-    linkgit: "https://github.com/gitmcr/marie-ness",
+    linkgit: "https://github.com/rayletmaxime/marie-ness",
     linklive:
       "https://6601e9caed368c4be0b09b3b--dashing-halva-d2e0a0.netlify.app/",
   },
@@ -55,7 +55,7 @@ export const projects = [
     desc3: "Ongoing",
     languages: [tailwind, tailwind, tailwind],
     image: [imgproject2],
-    linkgit: "https://github.com/gitmcr",
+    linkgit: "https://github.com/rayletmaxime",
     linklive: "https://www.mcraylet.com/",
   },
 ];
