@@ -1,36 +1,27 @@
-/* Import Font */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oleo+Script:wght@400;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Base Setup */
 * {
+  @apply scroll-smooth box-border m-0 p-0;
   font-family: "Inter", sans-serif;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-  box-sizing: border-box;
 }
 
-/* Mode / Theme */
 a {
-  text-decoration: none;
+  @apply no-underline;
 }
 
 button {
-  background-color: #087ea4;
+  @apply bg-[#087ea4];
 }
-
 button p {
-  color: #fff;
-  transition: color 500ms;
+  @apply text-white transition-[color] duration-500;
 }
 
 button small {
-  color: #fff;
-  transition: color 500ms;
+  @apply text-white transition-[color] duration-500;
 }
 
 .light button:hover {
