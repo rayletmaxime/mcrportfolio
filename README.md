@@ -16,7 +16,7 @@ In this project, I used :
 
 **🚀 Deployment & Tools :**
 
-[![My Skills](https://skillicons.dev/icons?i=figma,ps,ai,git,github,vscode)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vercel,figma,ps,ai,git,github,vscode)](https://skillicons.dev)
 
 ---
 
