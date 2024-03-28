@@ -1,6 +1,7 @@
 import linkedin from "../assets/svgs/linkedin.svg";
 import github from "../assets/svgs/github.svg";
 import mcr from "../assets/max.webp";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -16,15 +17,25 @@ export default function Hero() {
           </p>
           <div className="hero-left-icons">
             <a href="https://www.linkedin.com/in/mcraylet/" target="_blank">
-              <img src={linkedin.src} alt="Logo LinkedIn" />
+              <Image
+                src={linkedin}
+                alt="Logo LinkedIn"
+                width={40}
+                height={40}
+              />
             </a>
             <a href="https://github.com/rayletmaxime" target="_blank">
-              <img src={github.src} alt="Logo GitHub" />
+              <Image src={github} alt="Logo GitHub" width={40} height={40} />
             </a>
           </div>
         </div>
         <div className="hero-right">
-          <img src={mcr.src} alt="Photo de Maxime Raylet" width={400} />
+          <Image
+            src={mcr}
+            alt="Photo de Maxime Raylet"
+            width={400}
+            height={400}
+          />
           <div className="hero-right-btn">
             <button>
               <a href="/cv.pdf" download>

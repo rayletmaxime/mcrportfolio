@@ -21,6 +21,7 @@ import git from "../assets/svgs/git.svg";
 import seo from "../assets/svgs/seo.svg";
 import cms from "../assets/svgs/wordpress.svg";
 import github from "../assets/svgs/github.svg";
+import Image from "next/image";
 
 export default function Skill() {
   useEffect(() => {
@@ -46,10 +47,10 @@ export default function Skill() {
             >
               <h2>Front-End</h2>
               <div className="skill-icons">
-                <img src={html.src} alt="Logo HTML" width={40} height={40} />
-                <img src={css.src} alt="Logo HTML" width={40} height={40} />
-                <img src={js.src} alt="Logo HTML" width={40} height={40} />
-                <img src={ts.src} alt="Logo HTML" width={40} height={40} />
+                <Image src={html} alt="Logo HTML" width={40} />
+                <Image src={css} alt="Logo HTML" width={40} />
+                <Image src={js} alt="Logo HTML" width={40} />
+                <Image src={ts} alt="Logo HTML" width={40} />
               </div>
             </div>
             <div
@@ -59,10 +60,10 @@ export default function Skill() {
             >
               <h2>UX/UI Design</h2>
               <div className="skill-icons">
-                <img src={ps.src} alt="" width={42} height={42} />
-                <img src={ai.src} alt="" width={42} height={42} />
-                <img src={figma.src} alt="" width={36} height={36} />
-                <img src={mui.src} alt="" width={40} height={40} />
+                <Image src={ps} alt="" width={42} />
+                <Image src={ai} alt="" width={42} />
+                <Image src={figma} alt="" width={36} />
+                <Image src={mui} alt="" width={40} />
               </div>
             </div>
           </div>
@@ -74,10 +75,10 @@ export default function Skill() {
             >
               <h2>Frameworks & DB</h2>
               <div className="skill-icons">
-                <img src={react.src} alt="" width={40} height={40} />
-                <img src={tailwind.src} alt="" width={40} height={40} />
-                <img src={next.src} alt="" width={40} height={40} />
-                <img src={mongo.src} alt="" width={40} height={50} />
+                <Image src={react} alt="" width={40} />
+                <Image src={tailwind} alt="" width={40} />
+                <Image src={next} alt="" width={40} />
+                <Image src={mongo} alt="" width={40} />
               </div>
             </div>
             <div
@@ -87,10 +88,10 @@ export default function Skill() {
             >
               <h2>Outils</h2>
               <div className="skill-icons">
-                <img src={git.src} alt="" width={40} height={40} />
-                <img src={seo.src} alt="" width={40} height={40} />
-                <img src={cms.src} alt="" width={40} height={40} />
-                <img src={github.src} alt="" width={40} height={40} />
+                <Image src={git} alt="" width={40} />
+                <Image src={seo} alt="" width={40} />
+                <Image src={cms} alt="" width={40} />
+                <Image src={github} alt="" width={40} />
               </div>
             </div>
           </div>

@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 
+import Image from "next/image";
 import { useState } from "react";
 
 import { FaBars } from "react-icons/fa";
@@ -24,7 +25,7 @@ export default function Navbar({ theme, setTheme }) {
       <nav className="navbar">
         <div className="navbar-logo">
           <a href="#">
-            <img src="../favicon.ico" alt="Logo mcr" />
+            <Image src="/favicon.ico" alt="Logo mcr" width={36} height={36} />
           </a>
         </div>
         <div className="menu-toggle" onClick={handleMenuToggle}>

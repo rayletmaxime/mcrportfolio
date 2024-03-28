@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import Image from "next/image";
 import pp2 from "../assets/pp2.svg";
 import react from "../assets/svgs/react.svg";
 
@@ -8,14 +9,19 @@ export default function About() {
     <div className="colorabout">
       <div className="about" id="about">
         <div className="about-left">
-          <img src={pp2.src} alt="Illustration de Maxime Raylet" width={330} />
+          <Image
+            src={pp2}
+            alt="Illustration de Maxime Raylet"
+            width={330}
+            height={376}
+          />
         </div>
         <div className="about-right">
           <h2>À propos</h2>
           <br />
           <h3>
             Développeur Front-End{" "}
-            <img src={react.src} alt="Logo React" width={32} />
+            <Image src={react} alt="Logo React" width={30} height={30} />
           </h3>
           <br />
           <p>

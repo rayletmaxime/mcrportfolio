@@ -7,6 +7,7 @@ import bts from "../assets/svgs/bts.svg";
 import mcraylet from "../assets/svgs/mcraylet.svg";
 import formations from "../assets/svgs/meta.svg";
 import Scrollspy from "react-scrollspy";
+import Image from "next/image";
 
 export default function Experience() {
   const [isVisible, setIsVisible] = useState(false);
@@ -48,7 +49,12 @@ export default function Experience() {
           <div className="timeline">
             <div className="container left-container" id="barna">
               <a href="">
-                <img src={barna.src} alt="BARNA Entreprise" />
+                <Image
+                  src={barna}
+                  alt="BARNA Entreprise"
+                  height={40}
+                  width={40}
+                />
               </a>
               <div className="text-box">
                 <h2>BARNA - Stage de 6 mois</h2>
@@ -65,7 +71,12 @@ export default function Experience() {
 
             <div className="container right-container" id="bts">
               <a href="https://esj-lacordeille.com/" target="_blank">
-                <img src={bts.src} alt="ESJ La Cordeille" />
+                <Image
+                  src={bts}
+                  alt="ESJ La Cordeille"
+                  height={40}
+                  width={40}
+                />
               </a>
               <div className="text-box">
                 <h2>BTS Informatique - ESJ La Cordeille</h2>
@@ -81,7 +92,7 @@ export default function Experience() {
 
             <div className="container left-container" id="mcraylet">
               <a href="https://mcraylet.com/" target="_blank">
-                <img src={mcraylet.src} alt="MCRaylet" />
+                <Image src={mcraylet} alt="MCRaylet" height={40} width={40} />
               </a>
               <div className="text-box">
                 <h2>MCRaylet - Freelance (DG)</h2>
@@ -100,7 +111,12 @@ export default function Experience() {
                 href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
                 target="_blank"
               >
-                <img src={formations.src} alt="Formations" />
+                <Image
+                  src={formations.src}
+                  alt="Formations"
+                  height={40}
+                  width={40}
+                />
               </a>
               <div className="text-box">
                 <h2>Formations (freeCodeCamp, Udemy, WebDev et Meta) </h2>

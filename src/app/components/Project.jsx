@@ -6,6 +6,7 @@ import { projects } from "./projects.js";
 
 import github from "../assets/svgs/github.svg";
 import live from "../assets/svgs/live.svg";
+import Image from "next/image.js";
 
 export default function Project() {
   const [currentProject, setCurrentProject] = useState(0);
@@ -32,35 +33,39 @@ export default function Project() {
                 <h3>Langages / Outils</h3>
                 <div className="languages-list">
                   {project.languages.map((lang, index) => (
-                    <img
+                    <Image
                       src={lang.src}
                       key={index}
                       className="langs"
                       alt={index}
+                      height={45}
+                      width={45}
                     />
                   ))}
                 </div>
               </div>
             </div>
             <div className="project-right">
-              <img
+              <Image
                 className="project-image"
-                src={project.image[0].src}
+                src={project.image[0]}
                 alt={`Projet ${currentProject + 1}`}
                 data-aos="fade-down"
                 data-aos-duration="2000"
+                width={567}
+                height={400}
               />
               <div className="project-links">
                 <a href={project.linkgit} target="_blank">
-                  <img
-                    src={github.src}
+                  <Image
+                    src={github}
                     alt="Logo GitHub"
                     width={90}
                     height={90}
                   />
                 </a>
                 <a href={project.linklive} target="_blank">
-                  <img src={live.src} alt="Logo Live" width={90} height={90} />
+                  <Image src={live} alt="Logo Live" width={90} height={90} />
                 </a>
               </div>
               <div className="project-page">

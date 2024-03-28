@@ -6,6 +6,7 @@ import pp3 from "../assets/pp5.webp";
 
 import SendIcon from "@mui/icons-material/Send";
 import Alert from "@mui/material/Alert";
+import Image from "next/image";
 
 export default function Contact() {
   const [messageSent, setMessageSent] = useState(false);
@@ -36,7 +37,12 @@ export default function Contact() {
     <div className="colorcontact">
       <div className="contact" id="contact">
         <div className="contact-left">
-          <img src={pp3.src} alt="Illustration de Maxime Raylet" width={450} />
+          <Image
+            src={pp3}
+            alt="Illustration de Maxime Raylet"
+            width={450}
+            height={450}
+          />
         </div>
         <div className="contact-right">
           <form ref={form} onSubmit={sendEmail}>
