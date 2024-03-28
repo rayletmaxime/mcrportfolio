@@ -25,7 +25,7 @@ export default function About() {
           <br />
           <p>
             Mon goût pour l'UX/UI et ma vocation pour le développement web m'ont
-            permit de joindre mes deux meilleures armes pour offrir la meilleure
+            permis de joindre mes deux meilleures armes pour offrir la meilleure
             expérience utilisateur possible.
           </p>
           <br />
