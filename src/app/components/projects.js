@@ -39,12 +39,12 @@ export const projects = [
   },
   {
     name: "Marie Ness",
-    desc: "Portfolio d'un proche pour sa musique et ses compositions avec un lecteur de musique intégré, une section réseaux sociaux et plateformes de streaming ainsi qu'une newsletter fonctionnelle.",
+    desc: "Portfolio d'un proche pour sa musique et ses compositions avec un lecteur de musique intégré, un blog personnel avec ses articles ainsi qu'une newsletter fonctionnelle.",
     desc2:
-      "Le design et les mock-ups ont été réalisés sur Figma et la suite Adobe Illustrator et Photoshop. Ainsi que Headless et Material UI pour les icones.",
+      "Le design et les mock-ups ont été réalisés sur Figma et la suite Adobe Illustrator et Photoshop et le portfolio construit à l'aide de React et Tailwind CSS.",
     desc3:
-      "Portfolio d'une musicienne démontrant ses actualités, sa musique et ses propres compositions. Construit avec React et Tailwind CSS hébergé pour le moment sur Vercel.",
-    languages: [react, tailwind, js, mui],
+      "Le blog est construit avec Next.js et Sanity pour l'interface administrateur (ajout, modification et suppression des articles). Le portfolio et le blog sont déployés à l'aide de Vercel.",
+    languages: [react, tailwind, next, node],
     image: [imgproject2],
     linkgit: "https://github.com/rayletmaxime/marie-ness",
     linklive: "https://marie-ness.vercel.app/",
