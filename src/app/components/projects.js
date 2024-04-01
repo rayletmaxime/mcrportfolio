@@ -27,12 +27,12 @@ import imgproject3 from "../assets/projet3.webp";
 export const projects = [
   {
     name: "MCRaylet",
-    desc: "Site web pour ma Freelance. Fabriqué en 2022 avec un CMS et des fonctionnalités intégrées. Le design a été créé à l'aide de Figma pour les mockups et Photoshop et Illustrator pour la réalisation.",
+    desc: "Site web pour ma Freelance. Fabriqué en 2022 avec un CMS et remit au goût du jour avec React et Tailwind. Le design a été créé à l'aide de Figma pour les mockups et Illustrator pour la réalisation.",
     desc2:
-      "SEO et référencement naturel avec un score de 98/100 dépassant les personnes implantées depuis des années sur le mot clé informatique en l'espace de quatre mois.",
+      "SEO et référencement naturel avec un score de 100/100 dépassant les personnes implantées depuis des années sur le mot clé informatique en l'espace de quatre mois.",
     desc3:
-      "Conceptualisé et réalisé en deux semaines en partant avec aucune connaissance des CMS avec un apprentissage en ligne en autodidacte.",
-    languages: [figma, ps, cms, seo],
+      "Conceptualisé de base en 2022 et réalisé en deux semaines en partant avec aucune connaissance des CMS avec un apprentissage en ligne en autodidacte.",
+    languages: [react, tailwind, cms, seo],
     image: [imgproject1],
     linkgit: "https://github.com/rayletmaxime",
     linklive: "https://www.mcraylet.com/",
